@@ -1,0 +1,42 @@
+/* System fonts that provide similar aesthetics */
+.font-audiowide {
+  font-family:
+    "Orbitron", "Exo 2", "Rajdhani", "Russo One", "Saira Condensed",
+    "Electrolize", "Michroma", "Audiowide",
+    "SF Pro Display", "Helvetica Neue", "Arial Black",
+    system-ui, -apple-system, sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.font-quicksand {
+  font-family: "Quicksand", "Inter", "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", system-ui,
+    -apple-system, sans-serif;
+  font-weight: 400;
+}
+
+/* Additional font weights for quicksand */
+.font-quicksand-light {
+  font-family: "Quicksand", "Inter", "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", system-ui,
+    -apple-system, sans-serif;
+  font-weight: 300;
+}
+
+.font-quicksand-medium {
+  font-family: "Quicksand", "Inter", "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", system-ui,
+    -apple-system, sans-serif;
+  font-weight: 500;
+}
+
+.font-quicksand-semibold {
+  font-family: "Quicksand", "Inter", "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", system-ui,
+    -apple-system, sans-serif;
+  font-weight: 600;
+}
+
+.font-quicksand-bold {
+  font-family: "Quicksand", "Inter", "SF Pro Text", "Segoe UI", "Roboto", "Helvetica Neue", "Arial", system-ui,
+    -apple-system, sans-serif;
+  font-weight: 700;
+}
