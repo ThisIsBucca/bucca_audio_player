@@ -64,6 +64,39 @@
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
+
+  .theme-neon {
+    --background: 255 100% 6%;
+    --foreground: 180 100% 95%;
+    --primary: 330 100% 60%;
+    --primary-foreground: 180 100% 95%;
+    --accent: 180 100% 60%;
+    --accent-foreground: 330 100% 95%;
+    --card: 255 100% 10%;
+    --card-foreground: 180 100% 95%;
+  }
+
+  .theme-retro {
+    --background: 30 100% 95%;
+    --foreground: 24 100% 30%;
+    --primary: 24 100% 60%;
+    --primary-foreground: 30 100% 95%;
+    --accent: 36 100% 60%;
+    --accent-foreground: 24 100% 30%;
+    --card: 36 100% 90%;
+    --card-foreground: 24 100% 30%;
+  }
+
+  .theme-minimal {
+    --background: 245 100% 97%;
+    --foreground: 245 100% 20%;
+    --primary: 245 100% 60%;
+    --primary-foreground: 245 100% 97%;
+    --accent: 260 100% 70%;
+    --accent-foreground: 245 100% 20%;
+    --card: 245 100% 99%;
+    --card-foreground: 245 100% 20%;
+  }
 }
 
 @layer base {

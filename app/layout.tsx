@@ -31,6 +31,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html
       lang="en"
       className={`${quicksand.variable} ${audiowide.variable} scroll-smooth antialiased`}
+      suppressHydrationWarning
     >
       <body className="min-h-screen bg-background text-foreground font-quicksand">
         <ThemeProvider
@@ -38,6 +39,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
+          value={{
+            dark: "dark",
+            light: "light",
+            neon: "theme-neon",
+            retro: "theme-retro",
+            minimal: "theme-minimal",
+          }}
         >
           {children}
         </ThemeProvider>
